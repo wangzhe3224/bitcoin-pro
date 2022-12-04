@@ -1,3 +1,5 @@
 site_name: Bitcoin Pro 
 theme:
   name: material
+  favicon: assets/bitcoin.png
+  logo: assets/bitcoin.png
