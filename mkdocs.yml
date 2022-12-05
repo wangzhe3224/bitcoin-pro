@@ -62,8 +62,6 @@ theme:
       example: octicons/beaker-16
       quote: octicons/quote-16
 
-  custom_dir: overrides
-
 markdown_extensions:
   - attr_list
   - md_in_html 
