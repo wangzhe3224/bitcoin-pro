@@ -40,7 +40,15 @@ Mempoool 还提供了闪电网络、Liquid网络等二级网络信息的查询�
 
 ![20221211160733](https://raw.githubusercontent.com/wangzhe3224/pic_repo/master/images/20221211160733.png)
 
+## 论坛社区
+
+- [Bitcoin Talk: 元老级比特币社区（中本聪的主要论坛）](https://bitcointalk.org/)
+    - [论坛中文资源汇总](https://bitcointalk.org/index.php?topic=86809.0)
+- [Redis - Bitcoin 板块](https://www.reddit.com/r/Bitcoin/)
+- [Bitcoin Stack Exchange](https://bitcoin.stackexchange.com/)
+
 ## 博客和视频
 
-- [Bitcoin Stack Exchange](https://bitcoin.stackexchange.com/)
 - [Trader University](https://www.youtube.com/@TraderUniversity)
+- [Bitcoin Magazine](https://bitcoinmagazine.com/)
+- [Merkel Report - 比特币新闻源](https://www.merklereport.com/)
