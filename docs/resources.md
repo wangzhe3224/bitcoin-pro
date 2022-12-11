@@ -22,7 +22,11 @@
 
 提供实时比特币区块和 Mempool 查询功能，前端制作非常精良。
 
+Mempoool 还提供了闪电网络、Liquid网络等二级网络信息的查询功能和可视化功能。
+
 ![20221211160846](https://raw.githubusercontent.com/wangzhe3224/pic_repo/master/images/20221211160846.png)
+
+![20221211161028](https://raw.githubusercontent.com/wangzhe3224/pic_repo/master/images/20221211161028.png)
 
 ### [Bitcoin Stats and Live Statistics Dashboard](https://buybitcoinworldwide.com/stats/)
 
