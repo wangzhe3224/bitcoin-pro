@@ -3,6 +3,8 @@ title: 比特币随想 - Altcoin 去哪了？
 tags: Bitcoin
 categories: Bitcoin
 date: 2022-05-27
+comments: true
+status: new
 ---
 
 币圈历史不长，从2009年（比特币上线哪一年）算起不太合适，因为那时候还没有所谓的币圈。咱们就从2013年开始算吧，哪一年比特币第一次减半。
