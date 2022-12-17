@@ -1,4 +1,3 @@
-#! https://zhuanlan.zhihu.com/p/592562070
 ---
 title: 比特币随想 21 - 分层架构
 tags: Bitcoin
