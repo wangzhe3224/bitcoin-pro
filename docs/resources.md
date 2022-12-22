@@ -2,6 +2,10 @@
 
 ## 教学网站
 
+### [https://dergigi.com/](https://dergigi.com/)
+
+一个会讲授的博主，作者、程序员。
+
 ### [Learn Me a Bitcoin](https://learnmeabitcoin.com/)
 
 语言：英语
