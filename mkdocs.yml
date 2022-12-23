@@ -15,9 +15,7 @@ theme:
   include_search_page: false
   search_index_only: true
   plugins:
-    - tags
     - meta
-    - blog
   features:
     # - navigation.instant
     # - navigation.expand
