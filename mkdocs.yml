@@ -67,6 +67,7 @@ theme:
   custom_dir: overrides
 
 markdown_extensions:
+  - footnotes
   - attr_list
   - md_in_html 
   - admonition
@@ -83,3 +84,12 @@ markdown_extensions:
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - 前言: "index.md"
+  - 比特币随想:
+    - 误解、现状、未来: "tb/think_bitcoin.md"
+  - 21 Ways:
+    - "21_ways/index.md"
+  - 资源: "resources.md"
+  - 机构: "organizations.md"
