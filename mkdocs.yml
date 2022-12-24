@@ -89,5 +89,6 @@ nav:
     - 误解、现状、未来: "tb/think_bitcoin.md"
   - 21 Ways:
     - "21_ways/index.md"
+    - "21_ways/ch06.md"
   - 资源: "resources.md"
   - 机构: "organizations.md"
