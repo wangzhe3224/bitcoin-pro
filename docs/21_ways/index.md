@@ -5,7 +5,7 @@ comments: true
 # 0 序言
 
 !!! info 
-    [原文 - Bitcoin is Digital Scarcity](https://21-ways.com/ch0-02-introduction/#fn:invention)  
+    [原文 - 21 Ways](https://21-ways.com/)  
     [CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/)
 
 “比特币对不同的人意味着不同的事情”。我第一次听到这句话的时候，我就意识到这句话的深刻。
