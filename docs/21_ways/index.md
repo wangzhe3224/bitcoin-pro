@@ -2,7 +2,7 @@
 comments: true
 ---
 
-# 0 序言
+# 序言
 
 !!! info 
     [原文 - 21 Ways](https://21-ways.com/)  
