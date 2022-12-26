@@ -8,6 +8,8 @@ repo_url: https://github.com/wangzhe3224/bitcoin-pro
 copyright: Copyright &copy; 2022-present <a href="https://github.com/wangzhe3224" target="_blank" rel="noopener noreferrer">FunCoder</a>
 
 theme:
+  font:
+    text: Open Sans
   name: material
   favicon: assets/bitcoin.png
   logo: assets/bitcoin.png
@@ -16,6 +18,7 @@ theme:
   search_index_only: true
   plugins:
     - meta
+    - search
   features:
     # - navigation.instant
     # - navigation.expand
@@ -32,20 +35,21 @@ theme:
     - search.suggest
     - content.code.annotate
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: light blue
-      accent: deep purple
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: cyan
-      accent: deep purple
-      toggle:
-        icon: material/weather-night
-        name: Switch to light mode
+    - primary: dark
+    # - media: "(prefers-color-scheme: light)"
+    #   scheme: default
+    #   primary: light blue
+    #   accent: deep purple
+    #   toggle:
+    #     icon: material/weather-sunny
+    #     name: Switch to dark mode
+    # - media: "(prefers-color-scheme: dark)"
+    #   scheme: slate
+    #   primary: cyan
+    #   accent: deep purple
+    #   toggle:
+    #     icon: material/weather-night
+    #     name: Switch to light mode
   icon:
     repo: fontawesome/brands/github
     admonition:
@@ -78,6 +82,15 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  
+extra:
+  analytics:
+    provider: google
+    property: G-XXXXXXXXXX
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/wangzhe3224 
+  generator: false
 
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
