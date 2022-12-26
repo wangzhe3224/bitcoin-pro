@@ -88,4 +88,3 @@ Nostr 可以做很多事情，虽然它还很年轻，但是我们已经有一�
 - <https://usenostr.org/>
 - [Nostr 协议文档](https://github.com/nostr-protocol/nips/blob/master/01.md)
 - [Nostr 资源集合](https://www.nostr.net/)
-
