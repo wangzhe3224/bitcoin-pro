@@ -86,7 +86,7 @@ markdown_extensions:
 extra:
   analytics:
     provider: google
-    property: G-XXXXXXXXXX
+    property: G-8RFRYS5M9T
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/wangzhe3224 
