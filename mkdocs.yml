@@ -122,8 +122,9 @@ nav:
     - "tb/thinking_bitcoin_21.md"
   - 21 Ways:
     - "21_ways/index.md"
-    - "21_ways/ch001.md"
     - "21_ways/ch00.md"
+    - "21_ways/ch001.md"
+    - "21_ways/ch01.md"
     - "21_ways/ch06.md"
   - 其他:
     - "others/nostr.md"

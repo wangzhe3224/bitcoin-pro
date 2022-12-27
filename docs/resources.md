@@ -2,6 +2,8 @@
 
 ## 教学网站
 
+### [BTCStudy - 比特币资源中文站](https://www.btcstudy.org/)
+
 ### [https://dergigi.com/](https://dergigi.com/)
 
 一个会讲授的博主，作者、程序员。
