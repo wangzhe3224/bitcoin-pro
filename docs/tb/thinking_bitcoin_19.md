@@ -1,6 +1,5 @@
 ---
 title: 比特币随想 - 我为什么只买大饼 BTC？
-tags: Bitcoin
 categories: Bitcoin
 date: 2022-11-27
 ---

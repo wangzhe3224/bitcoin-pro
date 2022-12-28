@@ -1,6 +1,5 @@
 ---
 title: 比特币随想 - 再看工作量证明
-tags: Bitcoin
 categories: Bitcoin
 date: 2022-09-24
 ---

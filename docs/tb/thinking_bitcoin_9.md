@@ -1,6 +1,5 @@
 ---
 title: 比特币随想 - 机构投资评估 1
-tags: Bitcoin
 categories: Bitcoin
 date: 2022-06-14
 ---

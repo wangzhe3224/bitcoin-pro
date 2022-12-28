@@ -1,6 +1,7 @@
 ---
 title: 英仕曼集团 - 加密货币投资指南 2022-06 - 译
-tags: Bitcoin
+tags: 
+  - Bitcoin
 categories: Bitcoin
 date: 2022-07-25
 ---

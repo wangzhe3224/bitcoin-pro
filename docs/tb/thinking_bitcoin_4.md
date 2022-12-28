@@ -1,6 +1,5 @@
 ---
 title: 比特币随想 - 白皮书译注
-tags: Bitcoin
 categories: Bitcoin
 date: 2022-05-27
 ---

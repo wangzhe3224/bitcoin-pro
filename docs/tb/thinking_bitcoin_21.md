@@ -1,6 +1,5 @@
 ---
 title: 比特币随想 21 - 分层架构
-tags: Bitcoin
 categories: Bitcoin
 date: 2022-12-17
 ---

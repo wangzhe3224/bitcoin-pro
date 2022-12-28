@@ -1,6 +1,5 @@
 ---
 title: 比特币随想 - 比特币工作量证明用了多少电？
-tags: Bitcoin
 categories: Bitcoin
 date: 2022-08-28
 ---

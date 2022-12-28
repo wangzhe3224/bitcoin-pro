@@ -1,7 +1,5 @@
 ---
 title: 比特币随想 - 第三世界国家
-tags: Bitcoin
-categories: Bitcoin
 date: 2022-05-23
 ---
 

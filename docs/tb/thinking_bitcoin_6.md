@@ -1,6 +1,5 @@
 ---
 title: 比特币随想 - 诸多身份？
-tags: Bitcoin
 categories: Bitcoin
 date: 2022-06-01
 ---

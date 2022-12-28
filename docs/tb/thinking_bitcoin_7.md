@@ -1,6 +1,5 @@
 ---
 title: 比特币随想 - 重拾 Proof of Work
-tags: Bitcoin
 categories: Bitcoin
 date: 2022-06-04
 ---

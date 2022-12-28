@@ -1,6 +1,5 @@
 ---
 title: 比特币随想 - 10年后的数字资产市场？
-tags: Bitcoin
 categories: Bitcoin
 date: 2022-08-20
 ---

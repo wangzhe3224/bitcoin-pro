@@ -1,6 +1,5 @@
 ---
 title: 比特币随想 - 从数字签名到信任
-tags: Bitcoin
 categories: Bitcoin
 date: 2022-05-29
 ---

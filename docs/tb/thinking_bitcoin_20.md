@@ -1,6 +1,5 @@
 ---
 title: 比特币随想 - 信任模型
-tags: Bitcoin
 categories: Bitcoin
 date: 2022-12-04
 ---

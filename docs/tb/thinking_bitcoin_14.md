@@ -1,6 +1,5 @@
 ---
 title: 比特币随想 - 为什么比特币的智能合约不是图灵完备
-tags: Bitcoin
 categories: Bitcoin
 date: 2022-08-27
 ---

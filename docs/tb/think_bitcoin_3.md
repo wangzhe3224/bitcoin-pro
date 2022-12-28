@@ -1,6 +1,7 @@
 ---
 title: 比特币随想 - Altcoin 去哪了？
-tags: Bitcoin
+tags: 
+  - Bitcoin
 categories: Bitcoin
 date: 2022-05-27
 comments: true

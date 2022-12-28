@@ -1,6 +1,5 @@
 ---
 title: 比特币随想 - 我不讨厌以太坊！
-tags: [Bitcoin, Ethereum]
 categories: Bitcoin
 date: 2022-09-18
 ---

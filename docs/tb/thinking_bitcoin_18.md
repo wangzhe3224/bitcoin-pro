@@ -1,6 +1,5 @@
 ---
 title: ASICs 和去中心化常见问答 - 译
-tags: PoW
 categories: Bitcoin
 date: 2022-09-25
 ---

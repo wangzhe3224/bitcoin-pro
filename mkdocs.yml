@@ -8,25 +8,11 @@ repo_url: https://github.com/wangzhe3224/bitcoin-pro
 copyright: Copyright &copy; 2022-present <a href="https://github.com/wangzhe3224" target="_blank" rel="noopener noreferrer">FunCoder</a>
 
 theme:
-  font:
-    text: Open Sans
   name: material
   favicon: assets/bitcoin.png
   logo: assets/bitcoin.png
   language: zh
-  include_search_page: false
-  search_index_only: true
-  plugins:
-    - meta
-    - search
   features:
-    # - navigation.instant
-    # - navigation.expand
-    # - navigation.sections
-    # - navigation.tabs
-    # - navigation.tabs.sticky
-    # - navigation.indexes
-    # - toc.integrate
     - header.autohide
     - navigation.tracking
     - navigation.top
@@ -36,20 +22,6 @@ theme:
     - content.code.annotate
   palette:
     - primary: dark
-    # - media: "(prefers-color-scheme: light)"
-    #   scheme: default
-    #   primary: light blue
-    #   accent: deep purple
-    #   toggle:
-    #     icon: material/weather-sunny
-    #     name: Switch to dark mode
-    # - media: "(prefers-color-scheme: dark)"
-    #   scheme: slate
-    #   primary: cyan
-    #   accent: deep purple
-    #   toggle:
-    #     icon: material/weather-night
-    #     name: Switch to light mode
   icon:
     repo: fontawesome/brands/github
     admonition:
@@ -65,9 +37,26 @@ theme:
       bug: octicons/bug-16
       example: octicons/beaker-16
       quote: octicons/quote-16
-
   custom_dir: overrides
 
+plugins:
+  - search:
+       lang: en
+       indexing: 'full'
+       prebuild_index: true
+  - tags
+  - git-revision-date
+  # doc : https://timvink.github.io/mkdocs-git-revision-date-localized-plugin/options/
+  - git-revision-date-localized:
+      custom_format: "%d. %B %Y"
+      timezone: Europe/Amsterdam
+      locale: en
+      fallback_to_build_date: true
+      enable_creation_date: true
+      exclude:
+          - index.md
+      enabled: true
+  
 markdown_extensions:
   - footnotes
   - attr_list
@@ -82,11 +71,26 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
-  
+
 extra:
   analytics:
     provider: google
     property: G-8RFRYS5M9T
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >- 
+            Thanks for your feedback! Help us improve this page by
+            using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
+
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/wangzhe3224 
@@ -102,14 +106,14 @@ nav:
     - "tb/think_bitcoin.md"
     - "tb/thinking_bitcoin_2.md"
     - "tb/thinking_bitcoin_3.md"
+    - "tb/think_bitcoin_3.md"
     - "tb/thinking_bitcoin_4.md"
     - "tb/thinking_bitcoin_5.md"
     - "tb/thinking_bitcoin_6.md"
     - "tb/thinking_bitcoin_7.md"
     - "tb/thinking_bitcoin_8.md"
     - "tb/thinking_bitcoin_9.md"
-    - "tb/thinking_bitcoin_10.md"
-    - "tb/thinking_bitcoin_11.md"
+    - "tb/think_bitcoin_9.md"
     - "tb/thinking_bitcoin_12.md"
     - "tb/thinking_bitcoin_13.md"
     - "tb/thinking_bitcoin_14.md"
@@ -126,6 +130,7 @@ nav:
     - "21_ways/ch00.md"
     - "21_ways/ch001.md"
     - "21_ways/ch01.md"
+    - "21_ways/ch02.md"
     - "21_ways/ch06.md"
   - 其他:
     - "others/nostr.md"

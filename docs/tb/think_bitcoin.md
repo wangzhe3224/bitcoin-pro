@@ -1,6 +1,5 @@
 ---
 title: 比特币随想 - 误解、现状、未来
-tags: [Bitcoin]
 categories: Bitcoin
 date: 2022-05-18
 ---

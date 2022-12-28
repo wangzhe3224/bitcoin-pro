@@ -1,6 +1,5 @@
 ---
 title: 比特币随想 - 十问
-tags: Bitcoin
 categories: Bitcoin
 date: 2022-08-02
 ---

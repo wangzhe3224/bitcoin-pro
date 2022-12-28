@@ -1,6 +1,5 @@
 ---
 title: 比特币随想 - 如果有一天以太坊。。。
-tags: Bitcoin
 categories: Bitcoin
 date: 2022-06-05
 ---

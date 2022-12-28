@@ -1,6 +1,7 @@
 ---
 title: 比特币随想 - Proof of What?
-tags: Bitcoin
+tags: 
+    - Bitcoin
 categories: Bitcoin
 date: 2022-05-26
 ---
