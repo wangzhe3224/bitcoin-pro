@@ -133,5 +133,6 @@ nav:
     - "21_ways/ch06.md"
   - 其他:
     - "others/nostr.md"
+    - "others/bitcoin_wallet.md"
   - 资源: "resources.md"
   - 机构: "organizations.md"
