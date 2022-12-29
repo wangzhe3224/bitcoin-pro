@@ -45,14 +45,13 @@ plugins:
        indexing: 'full'
        prebuild_index: true
   - tags
-  - git-revision-date
   # doc : https://timvink.github.io/mkdocs-git-revision-date-localized-plugin/options/
   - git-revision-date-localized:
       custom_format: "%d. %B %Y"
       timezone: Europe/Amsterdam
       locale: en
       fallback_to_build_date: false
-      # enable_creation_date: true
+      enable_creation_date: true
       exclude:
           - index.md
       enabled: true
