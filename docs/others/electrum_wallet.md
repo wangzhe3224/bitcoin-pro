@@ -69,6 +69,9 @@ Next，选择 `Multi-signature wallet`
 
 ![20221230154318](https://raw.githubusercontent.com/wangzhe3224/pic_repo/master/images/20221230154318.png)
 
+!!! warning
+    不要使用这里出现的任何 Seed 作为自己的钱包！！！！
+
 ```
 future rather foot fresh edit wise wonder clerk priority action vote venue
 ```
