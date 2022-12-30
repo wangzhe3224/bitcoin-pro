@@ -12,6 +12,7 @@ comments: true
     - [21 Ways](21_ways/toc.md)
 - 教程
     - [比特币钱包](others/bitcoin_wallet.md)
+    - [Electrum 多签钱包使用教程](others/electrum_wallet.md)
 - 周边
     - [Nostr协议](others/nostr.md)
 - [比特币社区](./organizations.md)
