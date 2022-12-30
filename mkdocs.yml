@@ -5,7 +5,7 @@ site_description: >-
 repo_name: bitcoin-pro
 repo_url: https://github.com/wangzhe3224/bitcoin-pro
 
-copyright: Copyright &copy; 2022-present <a href="https://github.com/wangzhe3224" target="_blank" rel="noopener noreferrer">FunCoder</a>
+copyright: Copyright &copy; 2022-present <a href="https://github.com/wangzhe3224" target="_blank" rel="noopener noreferrer">FunCoder</a> | Support me with some Sats ₿ - bc1qsexhgghqwsqzsdatdwp0js3j68wxff36vqc7r72ucmc0wq69w3ns62hwaw
 
 theme:
   name: material
@@ -134,5 +134,6 @@ nav:
   - 其他:
     - "others/nostr.md"
     - "others/bitcoin_wallet.md"
+    - "others/electrum_wallet.md"
   - 资源: "resources.md"
   - 机构: "organizations.md"
