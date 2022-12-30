@@ -9,7 +9,7 @@ comments: true
 - 文章心得
     - [比特币随想系列](./tb/think_bitcoin.md)
 - 书籍翻译
-    - [21 Ways](21_ways/index.md)
+    - [21 Ways](21_ways/toc.md)
 - 教程
     - [比特币钱包](others/bitcoin_wallet.md)
 - 周边
