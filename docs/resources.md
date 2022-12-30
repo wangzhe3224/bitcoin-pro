@@ -4,6 +4,14 @@
 
 ### [BTC123 - 资源汇总](https://123btc.org/#Wallet)
 
+### [Bitcoin Only - 高质量比特币资源集合](https://bitcoin-only.com/)
+
+包括学习资源、见面会、书、钱包、硬件、播客、开发工具、使用工具、工作机会、会议等等。
+
+### [Bitcoin Intro - 保姆级别比特币使用教程](https://bitcoin-intro.com/)
+
+### [非技术性比特币使用指南（英文）](https://bitcoiner.guide/)
+
 ### [BTCStudy - 比特币资源中文站](https://www.btcstudy.org/)
 
 ### [https://dergigi.com/](https://dergigi.com/)
