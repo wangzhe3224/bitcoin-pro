@@ -22,3 +22,5 @@ comments: true
 那请通过 BTC 转账支持我，谢谢：
 
 `bc1qsexhgghqwsqzsdatdwp0js3j68wxff36vqc7r72ucmc0wq69w3ns62hwaw`
+
+Every Sat counts :)
