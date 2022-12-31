@@ -68,3 +68,8 @@ Mempoool 还提供了闪电网络、Liquid网络等二级网络信息的查询�
 - [Trader University](https://www.youtube.com/@TraderUniversity)
 - [Bitcoin Magazine](https://bitcoinmagazine.com/)
 - [Merkel Report - 比特币新闻源](https://www.merklereport.com/)
+
+## 杂
+
+- [公司、国家等机构持有比特币的数字](https://bitcointreasuries.net/)
+- [Block Watch - 一个有趣的比特币时钟](https://blockwatch.live/)
