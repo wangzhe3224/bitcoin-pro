@@ -101,7 +101,19 @@ extra_javascript:
 
 nav:
   - 前言: "index.md"
+  - 21 Lessons:
+    - "21_lessons/toc.md"
+  - 21 Ways:
+    - "21_ways/toc.md"
+    - "21_ways/index.md"
+    - "21_ways/ch00.md"
+    - "21_ways/ch001.md"
+    - "21_ways/ch01.md"
+    - "21_ways/ch02.md"
+    - "21_ways/ch03.md"
+    - "21_ways/ch06.md"
   - 比特币随想:
+    - "tb/toc.md"
     - "tb/think_bitcoin.md"
     - "tb/thinking_bitcoin_2.md"
     - "tb/thinking_bitcoin_3.md"
@@ -123,15 +135,6 @@ nav:
     - "tb/thinking_bitcoin_19.md"
     - "tb/thinking_bitcoin_20.md"
     - "tb/thinking_bitcoin_21.md"
-  - 21 Ways:
-    - "21_ways/toc.md"
-    - "21_ways/index.md"
-    - "21_ways/ch00.md"
-    - "21_ways/ch001.md"
-    - "21_ways/ch01.md"
-    - "21_ways/ch02.md"
-    - "21_ways/ch03.md"
-    - "21_ways/ch06.md"
   - 其他:
     - "others/nostr.md"
     - "others/bitcoin_wallet.md"

@@ -7,9 +7,10 @@ comments: true
 专注比特币网络教育、推广和使用。
 
 - 文章心得
-    - [比特币随想系列](./tb/think_bitcoin.md)
+    - [比特币随想系列](./tb/toc.md)
 - 书籍翻译
     - [21 Ways](21_ways/toc.md)
+    - [21 Lessons](21_lessons/toc.md)
 - 教程
     - [比特币钱包](others/bitcoin_wallet.md)
     - [Electrum 多签钱包使用教程](others/electrum_wallet.md)
