@@ -7,7 +7,7 @@ comments: true
 专注比特币网络教育、推广和使用。
 
 - 文章心得
-    - [比特币随想系列](./tb/toc.md)
+    - [比特币随想系列](tb/toc.md)
 - 书籍翻译
     - [21 Ways](21_ways/toc.md)
     - [21 Lessons](21_lessons/toc.md)
