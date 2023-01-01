@@ -1,7 +1,5 @@
 var initAll = function () {
     var path = window.location.pathname;
-    console.log(">>>>>>>>>>>>>>> ");
-    console.log("https://visitor-badge.glitch.me/badge?page_id=" + path);
     // add visitors count
     var ele = document.createElement("div");
     ele.setAttribute("align","center");
