@@ -5,6 +5,7 @@
 - [Bitcoin Programming Textbook - 比特币编程开源书](https://github.com/karask/bitcoin-textbook)
 - [Programming Bitcoin: Learn How to Program Bitcoin from Scratch](https://www.amazon.co.uk/Programming-Bitcoin-Learn-Program-Scratch/dp/1492031496/ref=asc_df_1492031496/?tag=googshopuk-21&linkCode=df0&hvadid=310819191513&hvpos=&hvnetw=g&hvrand=16006771926863323339&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9044953&hvtargid=pla-576210766036&psc=1&th=1&psc=1)
 - [精通比特币](https://wizardforcel.gitbooks.io/masterbitcoin2cn/content/)
+- [Learning Bitcoin from the Command Line 2.2.0](https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line)
 
 ## 教学网站
 
