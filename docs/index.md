@@ -9,8 +9,8 @@ comments: true
 - 文章心得
     - [比特币随想系列](tb/toc.md)
 - 书籍翻译
-    - [21 Ways](21_ways/toc.md)
-    - [21 Lessons](21_lessons/toc.md)
+    - [21 Ways - 21 个视角观察比特币](21_ways/toc.md)
+    - [21 Lessons - 比特币教我的 21 课](21_lessons/toc.md)
 - 教程
     - [比特币钱包](others/bitcoin_wallet.md)
     - [Electrum 多签钱包使用教程](others/electrum_wallet.md)
@@ -18,6 +18,10 @@ comments: true
     - [Nostr协议](others/nostr.md)
 - [比特币社区](./organizations.md)
 - [外部资源](./resources.md)
+
+## 需要组织沟通?
+
+请加入泛泛的 Discord: <https://discord.gg/fjnRqarf>
 
 ## 支持我？
 
