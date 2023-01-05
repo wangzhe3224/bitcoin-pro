@@ -19,6 +19,10 @@ comments: true
 - [比特币社区](./organizations.md)
 - [外部资源](./resources.md)
 
+## 订阅更新？
+
+Telegram 频道会定期推送更新 - <https://t.me/bitcoinpro21>
+
 ## 需要组织沟通?
 
 请加入泛泛的 Discord: <https://discord.gg/fjnRqarf>
