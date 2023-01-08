@@ -15,6 +15,7 @@ comments: true
     - [比特币钱包](others/bitcoin_wallet.md)
     - [Electrum 多签钱包使用教程](others/electrum_wallet.md)
     - [树莓派设置全节点以及闪电网络相关教程](https://raspibolt.org/)
+    - [如何购买非 KYC 比特币](tutorial/non_kyc_bitcoin.md)
 - 周边
     - [Nostr协议](others/nostr.md)
 - [比特币社区](./organizations.md)
