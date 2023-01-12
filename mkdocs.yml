@@ -119,6 +119,10 @@ nav:
     - "21_ways/ch02.md"
     - "21_ways/ch03.md"
     - "21_ways/ch06.md"
+  - 教程:
+    - "tutorial/bitcoin_wallet.md"
+    - "tutorial/electrum_wallet.md"
+    - "tutorial/non_kyc_bitcoin.md"
   - 思辨:
     - "thoughts/value_of_freedom.md"
   - 比特币随想:
@@ -147,7 +151,5 @@ nav:
     - "tb/thinking_bitcoin_21.md"
   - 其他:
     - "others/nostr.md"
-    - "others/bitcoin_wallet.md"
-    - "others/electrum_wallet.md"
   - 资源: "resources.md"
   - 机构: "organizations.md"

@@ -14,6 +14,14 @@ comments: true
 
 另外一种方式就是点对点交易了，基本就是找到一个人，然后用各种可行的方式交易，比如亚马逊礼品卡啊、银行转账啊之类。这里我放一个隐私、安全性很好的平台：
 
+## [Bisq - 无 KYC 去中心化交易所](https://bisq.network/getting-started/)
+
+支持支付宝和微信支付。
+
+## [PeachBitcoin](https://peachbitcoin.com/)
+
+点对点比特币交易平台。
+
 ## [LocalBitcoins](https://localbitcoins.com/)
 
 最受信赖的比特币点对点交易网站，支持支付宝、PayPal等多种付款方式。
