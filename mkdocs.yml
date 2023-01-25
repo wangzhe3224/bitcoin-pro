@@ -99,7 +99,6 @@ extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - _js/pageview.js
-  # - _js/mash.js
 
 nav:
   - 前言: "index.md"
@@ -112,6 +111,7 @@ nav:
       - "21_lessons/ch1/l2.md"
       - "21_lessons/ch1/l3.md"
       - "21_lessons/ch1/l4.md"
+      - "21_lessons/ch1/l5.md"
   - 21 Ways:
     - "21_ways/toc.md"
     - "21_ways/index.md"
