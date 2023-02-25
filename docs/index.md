@@ -37,3 +37,17 @@ Telegram 频道会定期推送更新 - <https://t.me/bitcoinpro21>
 `bc1qsexhgghqwsqzsdatdwp0js3j68wxff36vqc7r72ucmc0wq69w3ns62hwaw`
 
 Every Sat counts :)
+
+
+<div id="image-table">
+    <table>
+	    <tr>
+            <td style="padding:10px">
+<img src="https://raw.githubusercontent.com/wangzhe3224/landing/main/content/en/zhifubao.jpg"  width="60%" height="30%">
+            </td>
+            <td style="padding:10px">
+<img src="https://raw.githubusercontent.com/wangzhe3224/landing/main/content/en/weixin.jpg"  width="95%" height="40%">
+            </td>
+        </tr>
+    </table>
+</div>
