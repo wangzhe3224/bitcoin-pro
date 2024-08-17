@@ -1,0 +1,2302 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="In Bitcoin, we trust.">
+      
+      
+        <meta name="author" content="FunCoder">
+      
+      
+      
+        <link rel="prev" href="../ch02/">
+      
+      
+        <link rel="next" href="../ch06/">
+      
+      
+      <link rel="icon" href="../../assets/bitcoin.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.31">
+    
+    
+      
+        <title>3 比特币是魔法互联网货币 - Bitcoin Pro</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.3cba04c6.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+  
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+  
+  <style>:root{--md-admonition-icon--note:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M1 7.775V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 0 1 0 2.474l-5.026 5.026a1.75 1.75 0 0 1-2.474 0l-6.25-6.25A1.752 1.752 0 0 1 1 7.775Zm1.5 0c0 .066.026.13.073.177l6.25 6.25a.25.25 0 0 0 .354 0l5.025-5.025a.25.25 0 0 0 0-.354l-6.25-6.25a.25.25 0 0 0-.177-.073H2.75a.25.25 0 0 0-.25.25ZM6 5a1 1 0 1 1 0 2 1 1 0 0 1 0-2Z"/></svg>');--md-admonition-icon--abstract:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M2.5 1.75v11.5c0 .138.112.25.25.25h3.17a.75.75 0 0 1 0 1.5H2.75A1.75 1.75 0 0 1 1 13.25V1.75C1 .784 1.784 0 2.75 0h8.5C12.216 0 13 .784 13 1.75v7.736a.75.75 0 0 1-1.5 0V1.75a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25Zm13.274 9.537v-.001l-4.557 4.45a.75.75 0 0 1-1.055-.008l-1.943-1.95a.75.75 0 0 1 1.062-1.058l1.419 1.425 4.026-3.932a.75.75 0 1 1 1.048 1.074ZM4.75 4h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM4 7.75A.75.75 0 0 1 4.75 7h2a.75.75 0 0 1 0 1.5h-2A.75.75 0 0 1 4 7.75Z"/></svg>');--md-admonition-icon--info:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/></svg>');--md-admonition-icon--tip:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M3.499.75a.75.75 0 0 1 1.5 0v.996C5.9 2.903 6.793 3.65 7.662 4.376l.24.202c-.036-.694.055-1.422.426-2.163C9.1.873 10.794-.045 12.622.26 14.408.558 16 1.94 16 4.25c0 1.278-.954 2.575-2.44 2.734l.146.508.065.22c.203.701.412 1.455.476 2.226.142 1.707-.4 3.03-1.487 3.898C11.714 14.671 10.27 15 8.75 15h-6a.75.75 0 0 1 0-1.5h1.376a4.484 4.484 0 0 1-.563-1.191 3.835 3.835 0 0 1-.05-2.063 4.647 4.647 0 0 1-2.025-.293.75.75 0 0 1 .525-1.406c1.357.507 2.376-.006 2.698-.318l.009-.01a.747.747 0 0 1 1.06 0 .748.748 0 0 1-.012 1.074c-.912.92-.992 1.835-.768 2.586.221.74.745 1.337 1.196 1.621H8.75c1.343 0 2.398-.296 3.074-.836.635-.507 1.036-1.31.928-2.602-.05-.603-.216-1.224-.422-1.93l-.064-.221c-.12-.407-.246-.84-.353-1.29a2.425 2.425 0 0 1-.507-.441 3.075 3.075 0 0 1-.633-1.248.75.75 0 0 1 1.455-.364c.046.185.144.436.31.627.146.168.353.305.712.305.738 0 1.25-.615 1.25-1.25 0-1.47-.95-2.315-2.123-2.51-1.172-.196-2.227.387-2.706 1.345-.46.92-.27 1.774.019 3.062l.042.19a.884.884 0 0 1 .01.05c.348.443.666.949.94 1.553a.75.75 0 1 1-1.365.62c-.553-1.217-1.32-1.94-2.3-2.768L6.7 5.527c-.814-.68-1.75-1.462-2.692-2.619a3.737 3.737 0 0 0-1.023.88c-.406.495-.663 1.036-.722 1.508.116.122.306.21.591.239.388.038.797-.06 1.032-.19a.75.75 0 0 1 .728 1.31c-.515.287-1.23.439-1.906.373-.682-.067-1.473-.38-1.879-1.193L.75 5.677V5.5c0-.984.48-1.94 1.077-2.664.46-.559 1.05-1.055 1.673-1.353V.75Z"/></svg>');--md-admonition-icon--success:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg>');--md-admonition-icon--question:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.92 6.085h.001a.749.749 0 1 1-1.342-.67c.169-.339.436-.701.849-.977C6.845 4.16 7.369 4 8 4a2.756 2.756 0 0 1 1.637.525c.503.377.863.965.863 1.725 0 .448-.115.83-.329 1.15-.205.307-.47.513-.692.662-.109.072-.22.138-.313.195l-.006.004a6.24 6.24 0 0 0-.26.16.952.952 0 0 0-.276.245.75.75 0 0 1-1.248-.832c.184-.264.42-.489.692-.661.103-.067.207-.132.313-.195l.007-.004c.1-.061.182-.11.258-.161a.969.969 0 0 0 .277-.245C8.96 6.514 9 6.427 9 6.25a.612.612 0 0 0-.262-.525A1.27 1.27 0 0 0 8 5.5c-.369 0-.595.09-.74.187a1.01 1.01 0 0 0-.34.398ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"/></svg>');--md-admonition-icon--warning:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"/></svg>');--md-admonition-icon--failure:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M2.344 2.343h-.001a8 8 0 0 1 11.314 11.314A8.002 8.002 0 0 1 .234 10.089a8 8 0 0 1 2.11-7.746Zm1.06 10.253a6.5 6.5 0 1 0 9.108-9.275 6.5 6.5 0 0 0-9.108 9.275ZM6.03 4.97 8 6.94l1.97-1.97a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l1.97 1.97a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-1.97 1.97a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L6.94 8 4.97 6.03a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018Z"/></svg>');--md-admonition-icon--danger:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M9.504.43a1.516 1.516 0 0 1 2.437 1.713L10.415 5.5h2.123c1.57 0 2.346 1.909 1.22 3.004l-7.34 7.142a1.249 1.249 0 0 1-.871.354h-.302a1.25 1.25 0 0 1-1.157-1.723L5.633 10.5H3.462c-1.57 0-2.346-1.909-1.22-3.004L9.503.429Zm1.047 1.074L3.286 8.571A.25.25 0 0 0 3.462 9H6.75a.75.75 0 0 1 .694 1.034l-1.713 4.188 6.982-6.793A.25.25 0 0 0 12.538 7H9.25a.75.75 0 0 1-.683-1.06l2.008-4.418.003-.006a.036.036 0 0 0-.004-.009l-.006-.006-.008-.001c-.003 0-.006.002-.009.004Z"/></svg>');--md-admonition-icon--bug:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M4.72.22a.75.75 0 0 1 1.06 0l1 .999a3.488 3.488 0 0 1 2.441 0l.999-1a.748.748 0 0 1 1.265.332.75.75 0 0 1-.205.729l-.775.776c.616.63.995 1.493.995 2.444v.327c0 .1-.009.197-.025.292.408.14.764.392 1.029.722l1.968-.787a.75.75 0 0 1 .556 1.392L13 7.258V9h2.25a.75.75 0 0 1 0 1.5H13v.5c0 .409-.049.806-.141 1.186l2.17.868a.75.75 0 0 1-.557 1.392l-2.184-.873A4.997 4.997 0 0 1 8 16a4.997 4.997 0 0 1-4.288-2.427l-2.183.873a.75.75 0 0 1-.558-1.392l2.17-.868A5.036 5.036 0 0 1 3 11v-.5H.75a.75.75 0 0 1 0-1.5H3V7.258L.971 6.446a.75.75 0 0 1 .558-1.392l1.967.787c.265-.33.62-.583 1.03-.722a1.677 1.677 0 0 1-.026-.292V4.5c0-.951.38-1.814.995-2.444L4.72 1.28a.75.75 0 0 1 0-1.06Zm.53 6.28a.75.75 0 0 0-.75.75V11a3.5 3.5 0 1 0 7 0V7.25a.75.75 0 0 0-.75-.75ZM6.173 5h3.654A.172.172 0 0 0 10 4.827V4.5a2 2 0 1 0-4 0v.327c0 .096.077.173.173.173Z"/></svg>');--md-admonition-icon--example:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M5 5.782V2.5h-.25a.75.75 0 0 1 0-1.5h6.5a.75.75 0 0 1 0 1.5H11v3.282l3.666 5.76C15.619 13.04 14.543 15 12.767 15H3.233c-1.776 0-2.852-1.96-1.899-3.458Zm-2.4 6.565a.75.75 0 0 0 .633 1.153h9.534a.75.75 0 0 0 .633-1.153L12.225 10.5h-8.45ZM9.5 2.5h-3V6c0 .143-.04.283-.117.403L4.73 9h6.54L9.617 6.403A.746.746 0 0 1 9.5 6Z"/></svg>');--md-admonition-icon--quote:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M1.75 2.5h10.5a.75.75 0 0 1 0 1.5H1.75a.75.75 0 0 1 0-1.5Zm4 5h8.5a.75.75 0 0 1 0 1.5h-8.5a.75.75 0 0 1 0-1.5Zm0 5h8.5a.75.75 0 0 1 0 1.5h-8.5a.75.75 0 0 1 0-1.5ZM2.5 7.75v6a.75.75 0 0 1-1.5 0v-6a.75.75 0 0 1 1.5 0Z"/></svg>');}</style>
+
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function n(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],n("js",new Date),n("config","G-8RFRYS5M9T"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){this.value&&n("event","search",{search_term:this.value})}),document$.subscribe(function(){var a=document.forms.feedback;if(void 0!==a)for(var e of a.querySelectorAll("[type=submit]"))e.addEventListener("click",function(e){e.preventDefault();var t=document.location.pathname,e=this.getAttribute("data-md-value");n("event","feedback",{page:t,data:e}),a.firstElementChild.disabled=!0;e=a.querySelector(".md-feedback__note [data-md-value='"+e+"']");e&&(e.hidden=!1)}),a.hidden=!1}),location$.subscribe(function(e){n("config","G-8RFRYS5M9T",{page_path:e.pathname})})});var e=document.createElement("script");e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=G-8RFRYS5M9T",document.getElementById("__analytics").insertAdjacentElement("afterEnd",e)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="dark" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../.." title="Bitcoin Pro" class="md-header__button md-logo" aria-label="Bitcoin Pro" data-md-component="logo">
+      
+  <img src="../../assets/bitcoin.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Bitcoin Pro
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              3 比特币是魔法互联网货币
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="dark" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="分享" aria-label="分享" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/wangzhe3224/bitcoin-pro" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    bitcoin-pro
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Bitcoin Pro" class="md-nav__button md-logo" aria-label="Bitcoin Pro" data-md-component="logo">
+      
+  <img src="../../assets/bitcoin.png" alt="logo">
+
+    </a>
+    Bitcoin Pro
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/wangzhe3224/bitcoin-pro" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    bitcoin-pro
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    前言
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    21 Lessons
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            21 Lessons
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../21_lessons/toc/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    比特币的 21 课
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../21_lessons/intro/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    引言
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    第一章 哲学
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            第一章 哲学
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../21_lessons/ch1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1 哲学
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../21_lessons/ch1/l1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    L1 - 不可变性与改变
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../21_lessons/ch1/l2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    L2 - 稀缺的稀缺性
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../21_lessons/ch1/l3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    L3 - 复制和局部性
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../21_lessons/ch1/l4/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    L4 - 身份的问题
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../21_lessons/ch1/l5/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    L5 - 完美构想
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../21_lessons/ch1/l6/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    L6 - 言论自由的力量
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../21_lessons/ch1/l7/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    L7 - 有限的知识
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    第二章 经济学
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            第二章 经济学
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../21_lessons/ch2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2 经济学
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    21 Ways
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            21 Ways
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../toc/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    比特币的 21 个视角
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    序言
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch00/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    0 比特币快速入门
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch001/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    0.1 比特币的基础组成模块
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch01/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1 比特币是个想法
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch02/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2 比特币是时间
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    3 比特币是魔法互联网货币
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    3 比特币是魔法互联网货币
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      现代巫术
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-" class="md-nav__link">
+    <span class="md-ellipsis">
+      中本聪 - 第一个比特币巫师
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-mtgox" class="md-nav__link">
+    <span class="md-ellipsis">
+      魔法卡 - Mt.Gox 时代
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      毒蘑菇 - 丝绸之路
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      魔法 - 传送、变形和隐形
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      互联网：双花问题
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      金钱：促进信任
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      成为比特币巫师
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch06/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    6 比特币是数字稀缺性
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    教程
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            教程
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorial/bitcoin_wallet/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    比特币钱包使用
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorial/electrum_wallet/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Electrum 钱包 Multi-Sig 教程
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorial/non_kyc_bitcoin/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    如何获得 non-kyc 比特币
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    思辨
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            思辨
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../thoughts/value_of_freedom/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    自由的价值
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../thoughts/web3-really/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ”Web3？认真的吗？“
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../thoughts/where-crypto-goes-2023/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    10年后Crypto的格局 - 2033
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../thoughts/2024-bitcoin-price/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    比特币的定价模型
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../thoughts/2024-bitcoin-thoughts-a/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    关于比特币未来的一点思考
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    比特币随想
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            比特币随想
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tb/toc/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    比特币随想
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tb/thinking_bitcoin_22/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    比特币能买啥？
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tb/think_bitcoin/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    比特币随想 - 误解、现状、未来
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tb/thinking_bitcoin_2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    比特币随想 - 第三世界国家
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tb/thinking_bitcoin_3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    比特币随想 - Proof of What?
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tb/think_bitcoin_3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    比特币随想 - Altcoin 去哪了？
+  </span>
+  
+    
+  
+  
+    <span class="md-status md-status--new"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tb/thinking_bitcoin_4/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    比特币随想 - 白皮书译注
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tb/thinking_bitcoin_5/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    比特币随想 - 从数字签名到信任
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tb/thinking_bitcoin_6/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    比特币随想 - 诸多身份？
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tb/thinking_bitcoin_7/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    比特币随想 - 重拾 Proof of Work
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tb/thinking_bitcoin_8/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    比特币随想 - 如果有一天以太坊。。。
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tb/thinking_bitcoin_9/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    比特币随想 - 机构投资评估 1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tb/think_bitcoin_9/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    英仕曼集团 - 加密货币投资指南 2022-06 - 译
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tb/thinking_bitcoin_12/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    比特币随想 - 十问
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tb/thinking_bitcoin_13/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    比特币随想 - 10年后的数字资产市场？
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tb/thinking_bitcoin_14/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    比特币随想 - 为什么比特币的智能合约不是图灵完备
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tb/thinking_bitcoin_15/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    比特币随想 - 比特币工作量证明用了多少电？
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tb/thinking_bitcoin_16/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    比特币随想 - 我不讨厌以太坊！
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tb/thinking_bitcoin_17/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    比特币随想 - 再看工作量证明
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tb/thinking_bitcoin_18/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ASICs 和去中心化常见问答 - 译
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tb/thinking_bitcoin_19/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    比特币随想 - 我为什么只买大饼 BTC？
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tb/thinking_bitcoin_20/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    比特币随想 - 信任模型
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tb/thinking_bitcoin_21/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    比特币随想 21 - 分层架构
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    其他
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            其他
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../others/nostr/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NOSTR 协议
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    资源
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../organizations/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    机构
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      现代巫术
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-" class="md-nav__link">
+    <span class="md-ellipsis">
+      中本聪 - 第一个比特币巫师
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-mtgox" class="md-nav__link">
+    <span class="md-ellipsis">
+      魔法卡 - Mt.Gox 时代
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      毒蘑菇 - 丝绸之路
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      魔法 - 传送、变形和隐形
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      互联网：双花问题
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      金钱：促进信任
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      成为比特币巫师
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+<nav class="md-tags" >
+  
+    
+    
+    
+      <span class="md-tag">Bitcoin</span>
+    
+  
+</nav>
+
+
+  
+  
+
+
+  <h1>3 比特币是魔法互联网货币</h1>
+
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p><a href="https://21-ways.com/">原文</a><br />
+<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 license</a></p>
+</div>
+<hr />
+<div class="admonition quote">
+<p class="admonition-title">Quote</p>
+<p>足够先进的科技看起来跟魔法没有区别。<br />
+- <a href="https://en.wikiquote.org/wiki/Arthur_C._Clarke">Arthur C. Clarke</a></p>
+</div>
+<p>科技是令人惊奇的东西。我们总是很快的接受事物的现状，却很少花时间思考这些现代奇迹在现实中有多么神奇。我们现在使用的科技放在几代人以前跟魔法没有什么区别。就拿手机来说吧，一个口袋大小的玻璃就可以在任何时候接受任何信息，跟人聊天，听你说话，面部识别，读取指纹，录音录像，排高保真照片。手机还是闪光灯、指南针、导航器、记事本、日历、旅行顾问或者其他各种各样的东西。你可以存储比亚历山大图书馆更多的书，放下你一辈子都看不完的电影。现如今，它还存这你的钱，也是你的银行。</p>
+<p>所有这些你手机上的技术都不需要你理解背后的工作原理就可以使用了。同样的，大多数人也不知道汽油机是如何工作的，这并不影响他们开车。他们也许都一个大概得认识，可以解决一些日常的问题，但是仅此而已了。只有当东西不工作的时候，我们才意识到我们对其内部工作原理的知识有多么匮乏。车打不着火了、电脑不能开机了、路由器连不上了，这时我们才发现我们多无助。但是这个现象本身就是一个奇迹：我们居然可以不用理解某个东西却正确的使用它。</p>
+<p>掌握科技（或者魔法）的最好方法是使用它。没什么比动手实践一下怎么用更好的学习方法了，汽车、手机、比特币都是这个道理。这个道理适用于绝大多数事情，即使是非常平淡的事情。你可能不确定锁具体是怎么工作的，但是锁门你是没有问题的。同样，你不需要完全理解公钥密码学和散列函数，才理解泄露自己的私钥是一场灾难。</p>
+<h2 id="_1">现代巫术</h2>
+<div class="admonition quote">
+<p class="admonition-title">Quote</p>
+<p>比特币的好处在于你知道一个确切的数字 - 那个神奇的 2100 万。<br />
+- Garry Kasparov</p>
+</div>
+<p>比特币是互联网的孩子，就连它的白皮书都是开源在互联网上而不是发表在学术期刊。它的软件不是由某个软件公司发行的，而是某个匿名网民。它没有公开贩售，而是开源免费的发行。因此，很自然的，比特币的第一个病毒式广告不是由广告公司制作的，而是由互联网上的个人制作的。</p>
+<p>2013 年 2 月 18 号，theymos 在 Reddit 比特币社区发帖，询问大家是否有关于网站内部比特币广告的想法。一个小时后，mavensbot 提交一个令人炫目的广告画，一个漂亮的魔法蓝精灵。</p>
+<p><img alt="20221230204046" src="https://raw.githubusercontent.com/wangzhe3224/pic_repo/master/images/20221230204046.png" /></p>
+<p>现在大家的脑海中还回荡着 ManboobsTheClown 的回复：完美！</p>
+<p>巫师开始了自己的生活，将自己变身为 T 恤、袜子、杯子、绘画和其他艺术品。他被画了又画了很多次，他创造的最大奇迹就是他对比特币的描述：Magic Internet Money。（魔法互联网货币）</p>
+<p>互联网文化本来就有点奇怪，比特币就更奇怪了。不过这也没什么奇怪的，任何新系统的早期使用者都是从少数派开始的，无论是全球通讯革命还是将会撼动世界的比特币都是如此。就好像最一开始链接互联网的人都有点古怪，早期对比特币感兴趣的人也都是一些奇特的生物。</p>
+<p>相比最早期的时候，我们已经取得了长足的进步，但是比特币让然也将一直是“魔法互联网货币”。它充满魔力，它活在互联网，它是钱。好的钱。</p>
+<h2 id="-">中本聪 - 第一个比特币巫师</h2>
+<div class="admonition quote">
+<p class="admonition-title">Quote</p>
+<p>魔法第一法则：不要告诉别人你的名字。名字是有力量的。 <br />
+<a href="https://en.wikiquote.org/wiki/Magic_(supernatural)#G">Neil Gaiman</a></p>
+</div>
+<p>我们在第一章已经看到，比特币有着很长的技术历史，它不是石头里面蹦出来的，但是，它的创造者是。中本聪2008年10月31日第一次登上舞台就带着他的比特币白皮书。虽然中本聪之前也秘密的一些人接触过（其中最有名的 Adam Back 和 Wei Dai），2008 年万圣节那个夜晚，他给 Cryptography Mailing List 写了第一封邮件。</p>
+<p>他在邮件中写道：我已经花了一年半设计比特币了，在此之前的很多年里，我一直在考虑电子现金的想法（以及哪些交易类型可能会派上用场）。</p>
+<p>虽然人们对比特币的假名创造者知之甚少，但许多人试图揭示中本聪背后的人（或多人）的身份。到目前为止，所有的尝试要么是被严重误导，要么是过度猜测，要么两者兼而有之。直到今天，所有这些都没有定论。</p>
+<p>这种尝试的最突出例子可能是由记者 Leah McGrath Goodman 提出的，她将 Dorian Prentice Satoshi Nakamoto 确定为比特币的创造者。当时 64 岁的退休工程师 Dorian 否认与比特币有任何关系，并提到他只是在记者爆料前几周才听说这件事，这让他的生活发生了翻天覆地的变化。在媒体炒作平息之后，比特币社区开始接受 Dorian 作为中本聪面孔的替身，并在此过程中制作表情包和艺术品。这个人自己成了一个模因，如果中本聪的身份仍然是个谜，他可能永远是比特币发明者的代言人。</p>
+<p><img alt="20221230210016" src="https://raw.githubusercontent.com/wangzhe3224/pic_repo/master/images/20221230210016.png" /></p>
+<p>多年来，有多人站出来自称是比特币的创造者。从默默无闻的说谎者到强迫性说谎者，再到智障人士，没有人能够证明自己就是中本聪——由于公钥加密技术，这种说法就像用中本聪的私钥签署一条消息一样容易证明。</p>
+<p>没有密码学证明，一切都只是无稽之谈。毫无疑问，有些人对他们对中本聪身份的好奇心没有平息而感到恼火，但我并不为此感到难过。从相反的方面来说。我们不知道中本聪是谁这一事实是一个特性，而不是一个错误。无领导者系统一定没有领导者。正如 Jimmy Song 如此简洁地评论道，“中本聪所做的最伟大的事情之一就是消失了。”</p>
+<p>中本聪除了给我们留下了比特币，还留下了很多评论和文章。他的许多公开帖子——以及他与其他密码学家和比特币早期采用者的一些私下讨论——仍然可以在网上找到。如果您有兴趣探索中本聪的著作，以下两个资源可能是迄今为止最完整的档案：中本聪研究所主办的《中本聪全书》和 Phil Champagne 的《中本聪之书》，其中包括解释和历史背景除了中本聪的著作。</p>
+<p>这些著作使我们能够勾勒出中本聪活动的时间表，从他 2008 年的突然出现到 2010 年他的失踪。以下是这样的时间表以及比特币早期历史中的重要事件：</p>
+<p><img alt="20221230210242" src="https://raw.githubusercontent.com/wangzhe3224/pic_repo/master/images/20221230210242.png" /></p>
+<p><img alt="20221230210311" src="https://raw.githubusercontent.com/wangzhe3224/pic_repo/master/images/20221230210311.png" /></p>
+<p>两年多后，2010 年 12 月 12 日，中本聪消失了。他的一些最后评论是“这个项目掌握得很好”并且他已经“转向其他事情”。在他消失前不久，比特币早期历史上最著名的两个项目启动了：Mt. Gox 和丝绸之路。两者都有神奇的起源：一个用来处理魔法卡，另一个用来处理魔法蘑菇。</p>
+<p><img alt="20221230210414" src="https://raw.githubusercontent.com/wangzhe3224/pic_repo/master/images/20221230210414.png" /></p>
+<h2 id="-mtgox">魔法卡 - Mt.Gox 时代</h2>
+<p>万智牌是一款流行的纸牌游戏，全世界有数百万人在玩。它的扑克牌是收藏品：有些稀有且昂贵（通常更强大），有些则相对丰富且便宜。游戏的每一轮代表两个或更多巫师（玩家）施法和召唤生物（卡片）之间的战斗。最初的纸牌游戏于 1993 年由 Wizards of the Coast 发行，从 2008 年到 2016 年越来越受欢迎。多年来推出了几个扩展包和版本，包括新卡牌、新游戏机制和视觉重新设计。据该公司称，在其鼎盛时期，这款游戏有超过 2000 万人玩过，印制了超过 200 亿张卡片。 2002 年，随着 Magic: The Gathering Online（纸牌游戏的官方在线版本）的推出，游戏进入了网络空间。</p>
+<p>正是这个版本让 Jed McCaleb 推出了 Mt. Gox，即“万智牌在线交易平台”。曾经是 Magic: The Gathering 爱好者的平台——一个允许你像交易股票一样交易这些纸牌的地方——最终成为比特币短暂历史中最黑暗篇章之一的催化剂。</p>
+<p>McCaleb 于 2007 年推出该网站，比比特币还早几年。在线市场并没有真正获得牵引力，几个月后，他决定停止使用卡交易平台。然而，在 2010 年在 Slashdot 上阅读了有关比特币的信息后，他重新启动了该网站。这一次，重点不是交易万智牌。这一次，重点是交易 Magic Internet Money。</p>
+<p>作为唯一可以购买比特币的网站之一，Mt. Gox 迅速流行起来。到 2013 年和 2014 年，它负责全球所有比特币交易的 70% 以上。仅仅三年后，Mt. Gox 就成为领先的比特币交易所和全球最大的比特币中介机构。然后情况急转直下。</p>
+<p>Mt. Gox 的垮台本身就值得一本书。简而言之，由于疏忽、无能、管理不善，可能还有一点点恶意，Mt. Gox“丢失”了 850,000 个比特币，价值 4.5 亿美元，约占当时总供应量的 7%。该公司于 2014 年 2 月底申请破产。一个月后，Mt. Gox 声称再次找到了约 20 万枚代币，使失踪总数降至 65 万枚。调查显示，从 2011 年底开始，随着时间的推移，大部分资金被慢慢盗走。今天，在臭名昭著的比特币交易所推出十年后，调查和法律程序仍在进行中。</p>
+<p>Mt.Gox 的崩塌给所有人上了一课，这一课的代价实在是太大了，这一课也值得所有后来人一遍一遍的学习，这样 Mt.Gox 的悲剧才会不会重演：<strong>不是你的私钥，不是你的比特币</strong>。</p>
+<h2 id="-_1">毒蘑菇 - 丝绸之路</h2>
+<p>比特币早期历史中最臭名昭著的一章可能是丝绸之路的兴衰，这是一个匿名的黑市，允许个人在线买卖商品——无论其法律地位如何。丝绸之路由罗斯·乌布利希 (Ross Ulbricht) 于 2011 年发起，是一个由买卖双方和消遣性药物使用者组成的小型社区。最终，它变成了在线购买毒品的地方。药品的 eBay，正如一些人所说的那样。今天，我们可能会将其描述为毒品亚马逊：一个您可以从 A 到 Z 购买任何物质的网站，而仅仅几天之后，您购买的任何东西都会出现在邮件中。</p>
+<p>罗斯开始梦想一个不受限制的在线市场，大约在中本聪围绕比特币构思他的想法的同时。按照自由主义的理想，他希望丝绸之路成为一个可以自由直接买卖任何娱乐物质的地方。在他看来，政府不应该说一个人应该或不应该将什么放入他们的身体。应该是个人的选择。每个人都应该被允许自己决定。</p>
+<p>起初，他不确定如何最好地实现这一愿景。显然，这样的努力会立即被执法部门叫停。但在他的一个朋友向他介绍 Tor 之后，一条通往技术解决方案的道路开始出现。 Tor 提供了将任何网站或在线服务隐藏在混淆和加密层之后的可能性，这有效地使某人能够私下和匿名地运行此类站点。如果没有人能弄清楚服务器的位置或运行它们的人的身份，就没有人可以进行干预。但是，仍然存在一个问题：付款。当 Ross 开始考虑实施这样一个匿名在线市场时，他还不知道有什么方法可以匿名发送付款。电子现金是 Ulbricht 先生正在煮的汤中缺少的成分。</p>
+<p>比特币是将丝绸之路的想法变为现实所需的最后一块拼图。罗斯发现橙色硬币的魔力后，便开始忙碌起来。现在他拥有了所有的工具，他决心建立这个网站。剩下要做的唯一一件事就是得到一种他可以在他新创建的市场上销售的产品。他选择的产品是裸盖菇素蘑菇，他自己在一个远离电网的小木屋里种植。他能够生产几公斤这些具有精神活性的蘑菇，当时只告诉他的女朋友整个手术过程。他的计划是一边为丝绸之路编写代码，一边开发第一个产品的同时构建虚拟市场。一旦网站上线，他将在几个互联网论坛上宣布推出丝绸之路——BitcoinTalk 等——感兴趣的人会弄清楚其余的。他的计划奏效了，收获几周后，Ross Ulbricht 成为丝绸之路上的第一个供应商，出售神奇蘑菇以换取神奇的互联网货币。</p>
+<p><img alt="20221230211219" src="https://raw.githubusercontent.com/wangzhe3224/pic_repo/master/images/20221230211219.png" /></p>
+<p>最初只是一个以神奇蘑菇为唯一列表的网站，最终发展成为一个比其理想主义创始人最乐观的预测所能想象的更大的网站。据估计，丝绸之路在其存在期间的收入超过 950 万个比特币，以美元计算达到数亿美元。一些估计甚至高达 12 亿美元。其他数字同样令人印象深刻：在近 100 万注册用户之间促成了超过 100 万笔交易，该网站列出了数万种商品。最终，Ross Ulbricht，又名恐怖海盗罗伯茨，被捕并随后被捕，丝绸之路被关闭。</p>
+<p>罗斯·乌布利希 (Ross Ulbricht) 的故事、他的被捕以及丝绸之路的兴衰既引人入胜又引人入胜。这是一个年轻、雄心勃勃、非常聪明的人最终成为 DPR 的故事：可怕的海盗和世界上最大的虚拟毒品船的船长。一个关于理想主义、爱情、多重身份、腐败的联邦调查局特工、杀手、道德难题、背叛、友谊、假谋杀、真正的盗窃以及善与恶之间模糊界限的故事。这个故事将永远与比特币的早期交织在一起。对于许多人来说，丝绸之路是通往橙色药丸的入门药物：与 Magic Internet Money 的第一次接触。</p>
+<p>罗斯现在正在服双重无期徒刑加上 40 年不得假释的刑期，主要是为了启动一个网站。尽管整个故事微妙而复杂，但这无疑是对非暴力犯罪的极其严厉的惩罚，尤其是在案件的处理方式和证据获取细节存疑的情况下。</p>
+<p>当然，思想不能被禁锢。丝绸之路被关闭后，其他“黑暗”市场如雨后春笋般涌现，其中许多至今仍存在。毫无疑问，只要全球通信网络和强大的加密存在，黑暗和灰色的在线市场就会与我们同在。一些人可能认为残暴的做法受到其他人的欢迎，因为这是一种更安全、更方便的方式，可以用来获取娱乐性药物和药品，这些药品要么难以获得（由于价格或处方的必要性），要么在其管辖范围内是非法的。无论您对这些问题的看法如何，比特币以及它所支持的黑暗和灰色市场都将继续存在。</p>
+<p>由于其持久性和价格的不断上涨，多年来，公众对比特币的看法从无法追踪的暗网货币转变为投机资产。对于包括我在内的一些人来说，观念甚至发生了进一步的转变：从投机资产转向硬通货和储蓄技术。然而，我认为了解比特币的早期历史很重要，包括它的早期用途、它们背后的动机，以及选择比特币来解决这些早期采用者面临的问题的原因。</p>
+<p>比特币的使用方式和原因——以及由谁使用——无疑会随着时间的推移而不断变化。但无论你是否用它来购买魔法蘑菇，比特币将永远是 Magic Internet Money。</p>
+<h2 id="-_2">魔法 - 传送、变形和隐形</h2>
+<p>如果不亲自体验一下比特币，就很难解释什么是比特币。第一次收到这种神器互联网钱的感觉非常奇特。即使过了这么多年，我仍然记得那个时刻：一个在互联网上互不相识的人可以直接传送价值给我，简直就像魔法一样。</p>
+<p>不需要媒介，直接传递价值，这不就是魔法吗？没有中介、没有第三方、不需要注册或者登录，只有你和我，通过一个加密信道通讯。</p>
+<p>这个事实即深刻又迷人。怎么做到的？谁负责这个事儿？这些钱是哪里来的？我可以赚钱吗？一旦你意识到这种神器的现象，你就会问更多的问题。毕竟有个人通过给你发信息就可以传输价值给你。</p>
+<p>中本聪可能是第一个暗示比特币神奇特性的人。在他的众多论坛帖子之一中，他写道：“作为一个思想实验，想象有一种贱金属像黄金一样稀有，但具有以下特性：颜色是单调的灰色，不是良好的导电体，不是特别坚固，但也没有延展性或不易延展性，对任何实用或装饰目的都没有用处，并且有一个特殊的、神奇的特性：可以通过通信通道传输。”</p>
+<p>当然，比特币就是中本聪提到的这种神奇的贱金属。它可以通过任何通信渠道传输的事实令人震惊。这意味着互联网不是比特币的必需品。理论上，您几乎可以使用任何东西来发送（和存储！）您的比特币。目前，互联网是迄今为止我们拥有的最好的通讯工具。截至目前，通过互联网发送数据包是比特币首选的通信方式。如果你想将一些卫星从 A 点传送到 B 点，你可能会使用互联网来实现。</p>
+<p>由于缺乏物理性，您的比特币可能具有的形状没有限制：文本、二维码、图像、声音、艺术品、表情符号——唯一的限制因素是我们的想象力（第 17 章会详细介绍）。无论我们是在谈论存储还是交易传输，比特币都可以变形为任何它需要的东西。这种神奇的特性在某种程度上是使比特币对审查制度如此有弹性的原因。比特币交易几乎可以编码成任何东西，而且——当然——它们可以通过端到端的加密通信渠道发送，使它们完全无法识别。如果你不知道你在看什么，你怎么能审查一些东西？</p>
+<p><img alt="20221230211954" src="https://raw.githubusercontent.com/wangzhe3224/pic_repo/master/images/20221230211954.png" /></p>
+<p>但是变形和传送并不是比特币的唯一技巧。如果非要我选一个最喜欢的，我可能会选择比特币神奇的消失能力。我并不是说“把你所有的比特币都寄给我，我会把双倍的钱还给你”的那种消失，而是那种似是而非的否认。从本质上讲，您所拥有的只是一个魔法：您的私钥，它具有解锁您的比特币的能力，因此可以将其传送到其他地方。大多数人将此咒语存储在一张纸上（或一块钢材，或一块专用硬件）。然而，你可以——通过一些努力——记住这个咒语并将你的比特币转移到你的大脑中，有效地让它们消失。</p>
+<p>如果你患有健忘症，这是一个可怕的想法，但如果你被迫采取这种极端措施，它可能会非常有用。想象一下，所有不得不在接到通知后立即逃离自己国家的人，将他们所有宝贵的财产抛在脑后。现在想象一下，如果他们的净资产中有很大一部分是比特币，以及在他们脑海中解锁它们的魔法咒语。他们可以赤身裸体地过境，而他们的财富却完好无损。边防人员什么也找不到，我们的裸体主角只要一个“咒语”，就可以在到达安全的地方后恢复他们的财富。很奇特，不是吗？</p>
+<h2 id="_2">互联网：双花问题</h2>
+<p>所有电脑都是复制机器，互联网，本质上是一个巨大的复制机器。巧了，这也是在比特币存在以前，互联网没有钱的原因。</p>
+<p>如果你移动电脑里面的一个文件，你并没有像物理世界一样移动它。你复制了他，然后再确认复制无误后，删除了原来的文件。因此，互联网上的钱的问题：如果我想把十块钱从我的电脑转移到你的电脑上，这十块钱实际上是被复制的——在转移过程中使总余额达到二十美元——你必须相信我，我收到副本后，我会毁掉我原来的十块钱。你能相信我会那样做吗？简而言之，这就是双重支出问题。这个难题就是为什么大多数人认为互联网不能赚钱的原因。</p>
+<h2 id="_3">金钱：促进信任</h2>
+<p>等等，互联网怎么没有钱呢？我们不是有信用卡、网上银行？有 PayPal、Venmo、CashApp、WeChatpay 等等网上支付方案吗？但是他们都有一个共同点：中间人。你需要相信某人或者某个公司来做好会计工作。罪魁祸首就是双花问题。</p>
+<p>在物理世界，我们没有这个问题。你给我一个苹果。现在我有苹果，你没有苹果了。没有复制过程，即没有复制和后续删除。在物理世界中，事物自然地从 A 移动到 B，而不会被复制。在现实世界中，您不需要中间人来促进交易。</p>
+<p>在网络空间中，解决这个问题的唯一办法是让中间人——一个值得信赖的第三方——来管理交易的有序性。因此，默认情况下，PayPal、VISA、MasterCard（以及所有其他处理交易的公司）确切地知道谁在什么时间点以及出于什么原因向谁支付了什么。知识就是力量，这种特殊的知识使这些受信任的第三方有能力阻止交易、冻结账户、拒绝付款和取消平台化他们的客户。此外，正如历史所表明的那样，这些数据将不可避免地因疏忽、无能或有针对性的黑客攻击而泄露。正如 Nick Szabo 所说，受信任的第三方是安全漏洞。</p>
+<p>比特币没有这个漏洞，这正是它神奇的地方。你就想现实世界的真钱一样：你给了别人一美金，你手上的一美金就没了。而且最重要的是：我们无需请求许可即可进行此交易。比特币的行为方式相同：你给我发送一些 sats，仅此而已。现在我有那些 sat，而你没有。</p>
+<h2 id="_4">成为比特币巫师</h2>
+<p>直到如今，想要用比特币你还是需要成为一名“巫师”（至少感觉像一个巫师）。尽管比特币在第一天就有了一个图形界面，但是理解支持比特币工作的那些部分就像学文言文一样困难。私钥、公钥、散列函数、数字签名、椭圆曲线、RPC，对于大多数人来说，这些概念和描述魔法符咒没啥区别。</p>
+<p>如果你已经理解其中一些概念，那么恭喜你！在理解比特币方面你已经非常领先了。但是，技术层面知识比特币拼图中的一块。记住：比特币是魔法互联网钱。许多有技术头脑的人将其误认为是一项技术发明，而没有看到使其成为一项令人震惊的货币创新的特殊属性。</p>
+<p>虽然比特币的使用变得越来越简单了，但是巫师的时代还没结束。直到今天，比特币专家还在#bitcoin-wizards6 IRC 频道中讨论发展和想法，比特币仍然被接受并被描述为魔法互联网货币。最初的巫师跟比特币一起成长起来，正如我们对这些比特币巫师看法一样。现在，可能成比特币的开发人员为巫师更加合适，这些巫师正在努力改进比特币协议和实现。</p>
+<p><img alt="20221230214830" src="https://raw.githubusercontent.com/wangzhe3224/pic_repo/master/images/20221230214830.png" /></p>
+<p>理解比特币是一个过程，一个个人的旅程。你可能最终自己成为比特币巫师，就像那些学习编码只是为了为比特币项目做出贡献的人一样。即使你不了解，我也希望这些看待比特币的不同方式能帮助你更好地理解比特币。至少，我希望你能改变对比特币及其本质的看法。虽然比特币现在是并将永远是魔法互联网货币，但它的整体意义要大得多。</p>
+<p>许多陷入比特币世界的人将这种体验描述为“掉进兔子洞”。踏入这个由键和哈希组成的奇异世界确实有点像进入仙境。另一个经常使用的比喻是黑客帝国中的“红色药丸与蓝色药丸”场景，Morpheus 为 Neo 提供了一个红色药丸（真相）和一个蓝色药丸（无知，但幸福）。尼奥选择了红色药丸，接下来，他一定会查清楚兔子洞到底有多深。</p>
+<p>同样，我认为了解比特币神奇属性的唯一方法是亲身体验。在你设置了一个非托管钱包并用笔和纸写下你的助记词后，停下来并意识到这些词是可以移动你的比特币的魔咒。出于所有意图和目的，这些词就是你的比特币。失去它们，它们就消失了。记住它们，你的脑子里就会有比特币。神奇。</p>
+<p>正如本叔叔教导（蜘蛛侠的老爹）我们的那样，能力越大，责任越大。比特币让你掌控一切，这反过来又让你对你的比特币负责。一旦你掌握了一些 sats，你就可以将它们发送给任何地方的任何人，无需请求许可，无需任何注册或中介。反过来，这意味着您有责任勤奋和谨慎。如果您无法使用您的资金，就没有人可以打电话。没有人可以帮助您恢复它们。如果您向骗子汇款，没有人可以撤销此交易或为您的轻信行为提供补偿。</p>
+<p>这种信任和责任的转移——从第三方到你自己——是比特币网络中稳健货币出现的原因。但是，健全货币与不健全货币的区别是什么？为什么我们首先需要健全的货币？回答这些问题将是下一章的重点。</p>
+
+
+
+
+
+
+
+  
+    
+  
+  
+    
+  
+
+
+  <aside class="md-source-file">
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="最后更新">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 17, 2024</span>
+  </span>
+
+    
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="创建日期">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3h-2Z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 17, 2024</span>
+  </span>
+
+    
+    
+    
+  </aside>
+
+
+  
+
+
+
+  <form class="md-feedback" name="feedback" hidden>
+    <fieldset>
+      <legend class="md-feedback__title">
+        Was this page helpful?
+      </legend>
+      <div class="md-feedback__inner">
+        <div class="md-feedback__list">
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page was helpful" data-md-value="1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m7 0c0 .8-.7 1.5-1.5 1.5S14 10.3 14 9.5 14.7 8 15.5 8s1.5.7 1.5 1.5m-5 7.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81Z"/></svg>
+            </button>
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page could be improved" data-md-value="0">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10m-6.5-4c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5.7-1.5 1.5-1.5M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m2 4.5c1.75 0 3.29.72 4.19 1.81l-1.42 1.42C14.32 16.5 13.25 16 12 16s-2.32.5-2.77 1.23l-1.42-1.42C8.71 14.72 10.25 14 12 14Z"/></svg>
+            </button>
+          
+        </div>
+        <div class="md-feedback__note">
+          
+            <div data-md-value="1" hidden>
+              
+              
+                
+              
+              Thanks for your feedback!
+            </div>
+          
+            <div data-md-value="0" hidden>
+              
+              
+                
+              
+              Thanks for your feedback! Help us improve this page by using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
+            </div>
+          
+        </div>
+      </div>
+    </fieldset>
+  </form>
+
+
+  <h2 id="__comments">评论</h2>
+  <!-- Insert generated snippet here -->
+  <script src="https://giscus.app/client.js"
+  data-repo="wangzhe3224/bitcoin-pro"
+  data-repo-id="R_kgDOIjgbRA"
+  data-category-id="DIC_kwDOIjgbRM4CTCv9"
+  data-mapping="pathname"
+  data-strict="0"
+  data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="top"
+  data-theme="preferred_color_scheme"
+  data-lang="zh-CN"
+  data-loading="lazy"
+  crossorigin="anonymous"
+  async>
+</script>
+
+  <!-- Synchronize Giscus theme with palette -->
+  <script>
+    var giscus = document.querySelector("script[src*=giscus]")
+
+    /* Set palette on initial load */
+    var palette = __md_get("__palette")
+    if (palette && typeof palette.color === "object") {
+      var theme = palette.color.scheme === "slate" ? "dark" : "light"
+      giscus.setAttribute("data-theme", theme) 
+    }
+
+    /* Register event handlers after documented loaded */
+    document.addEventListener("DOMContentLoaded", function() {
+      var ref = document.querySelector("[data-md-component=palette]")
+      ref.addEventListener("change", function() {
+        var palette = __md_get("__palette")
+        if (palette && typeof palette.color === "object") {
+          var theme = palette.color.scheme === "slate" ? "dark" : "light"
+
+          /* Instruct Giscus to change theme */
+          var frame = document.querySelector(".giscus-frame")
+          frame.contentWindow.postMessage(
+            { giscus: { setConfig: { theme } } },
+            "https://giscus.app"
+          )
+        }
+      })
+    })
+  </script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9801985319378542"
+  crossorigin="anonymous"></script>
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2022-present <a href="https://github.com/wangzhe3224" target="_blank" rel="noopener noreferrer">FunCoder</a> | Support me with some Sats ₿ - bc1qsexhgghqwsqzsdatdwp0js3j68wxff36vqc7r72ucmc0wq69w3ns62hwaw
+    </div>
+  
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/wangzhe3224" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["header.autohide", "navigation.tracking", "navigation.top", "search.highlight", "search.share", "search.suggest", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="../../_js/pageview.js"></script>
+      
+    
+  </body>
+</html>
