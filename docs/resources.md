@@ -79,4 +79,5 @@ Mempoool 还提供了闪电网络、Liquid网络等二级网络信息的查询�
 ## 杂
 
 - [公司、国家等机构持有比特币的数字](https://bitcointreasuries.net/)
+- [BitcoinCompanies - 公司比特币储备地图与榜单（claimed vs verified）](https://bitcoincompanies.co/)
 - [Block Watch - 一个有趣的比特币时钟](https://blockwatch.live/)
